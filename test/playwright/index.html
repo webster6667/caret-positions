@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>playwright</title>
+</head>
+<body>
+
+<input type="text" value="test" >
+
+<script src="./../../dist/lib/caret-positions.js" ></script>
+<script>
+    
+    const $input = document.querySelector('input')
+    
+    $input.onfocus = (e) => {
+        
+        const target = e.target
+
+        caretPositions.setFormElementCaretPosition(target, 1)
+        
+        
+    }
+    
+</script>
+
+</body>
+</html>
