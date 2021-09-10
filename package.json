@@ -1,6 +1,6 @@
 {
   "name": "caret-positions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "micro lib for control caret",
   "main": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webster6667/MYLIBNAME.git"
+    "url": "git+https://github.com/webster6667/caret-positions.git"
   },
   "keywords": ["caret", "cursor", "caret position", "set-caret-position", "input-caret"],
   "author": "webster6667",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webster6667/MYLIBNAME/issues"
+    "url": "https://github.com/webster6667/caret-positions/issues"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -57,5 +57,5 @@
   "dependencies": {
     "@babel/runtime": "^7.14.0"
   },
-  "homepage": "https://github.com/webster6667/MYLIBNAME#readme"
+  "homepage": "https://github.com/webster6667/caret-positions#readme"
 }
